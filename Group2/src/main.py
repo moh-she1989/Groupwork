@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from soft_margin_model import SVM 
@@ -27,3 +28,7 @@ if __name__ == "__main__":
     print("predicted_test_labels", predicted_test_labels)
     print("test_labels", test_labels.to_numpy())
     print(pd.concat((test_labels, predicted_test_labels - test_labels), axis=1))
+=======
+import os
+print("start")
+>>>>>>> 73814ae6364b8bc6cf784a30097a9b8f954f2505
